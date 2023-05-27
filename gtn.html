@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    color: rgb(106, 5, 62);
+    background-image: url(t.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 150px;
+}
+button{
+    width: 60px;
+    height: 25px;
+    font-weight: retro;
+    border-color: rgb(185, 21, 21);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(82, 7, 243);
+}
+input[type=number]{
+    width: 200px;
+    height: 20px;
+    box-shadow: 0 0 20px;
+}
+fieldset{
+    width: 400px;
+    margin-left: 600px;
+    border-color: rgb(14, 2, 60); ;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+    <h2>GUESS THE NUMBER</h2>
+    <P>Guess a number between 1 and 100:</P>
+    <input type="number" id="guessInput" min="1" max="100">
+    <button id="guessBtn">submit</button>
+    <p id="message"></p>
+    </div>
+<script src="gtn.js"></script>
+</body>
